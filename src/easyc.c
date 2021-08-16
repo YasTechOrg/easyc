@@ -94,13 +94,13 @@ string intToString(int number)
     return c;
 }
 
-// Convert Long To String
-/*string longToString(long number)
+// Swap To Variable
+void swap(int first, int second)
 {
-    string c = malloc(20);
-    sprintf(c, "%d", number);
-    return c;
-}*/
+    int temp = first;
+    first = second;
+    second = temp;
+}
 
 // Copy String
 string copyToString(string text)

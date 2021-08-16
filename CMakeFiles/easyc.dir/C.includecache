@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/44D83CCCD83CBDCC/Projects/c_projects/easyc/lib/easyc/src/easyc.c
+easyc.h
+/mnt/44D83CCCD83CBDCC/Projects/c_projects/easyc/lib/easyc/src/easyc.h
+
+/mnt/44D83CCCD83CBDCC/Projects/c_projects/easyc/lib/easyc/src/easyc.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

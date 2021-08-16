@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -shared -Wl,-soname,libeasyc.so -o libeasyc.so CMakeFiles/easyc.dir/src/easyc.c.o 

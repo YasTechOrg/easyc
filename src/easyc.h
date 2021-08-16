@@ -44,9 +44,6 @@ extern void println(string text);
 // Convert Int To String
 extern string intToString(int number);
 
-// Convert Long To String
-// extern string longToString(long number);
-
 // Copy String
 extern string copyToString(string text);
 
@@ -55,5 +52,8 @@ extern char uppercaseChar(char c);
 
 // Upper Case String
 extern string uppercaseString(string text);
+
+// Swap Two Variable
+extern void swap(int first, int second);
 
 #endif //EASY_C_H

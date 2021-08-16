@@ -12,7 +12,11 @@ add_library(
 )
 
 # Include Src Directory
-target_include_directories(easyc PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/src")
+
+target_include_directories(easyc PUBLIC
+        "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>"
+        "$<INSTALL_INTERFACE:src>"
+)
 
 # Define Project Version
 target_compile_definitions(easyc PUBLIC easyc_version=1)
