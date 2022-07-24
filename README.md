@@ -9,15 +9,15 @@
 4. <a href="#reference-of-easy-c">Reference of Easy C</a>
 5. <a href="#last-changes">Last changes</a>
 ### What is Easy C?
-Easy C is c library base on CMake, and it contains many of functions and data types to make your code easy, fast and standard. You can simply use it in your project with CMake.
+Easy C is a c library based on CMake, and it contains many functions and data types to make your code easy, fast,and standard. You can simply use it in your project with CMake.
 ### Why we should use Easy C?
 - Have a cleaner code
-- Make things easier
-- Do things standard
-- Faster and better app
+- Makes things easier
+- Do standard things 
+- Faster and better app when compared to others
 ### Usage of Easy C
-- First clone library to your project
-- Second Add Library to your `CMakeLists.txt`
+- Firstly clone library to your project
+- Secondly add Library to your `CMakeLists.txt`
 ```cmake
 # if you are using sub directories
 # add_subdirectory(lib/easyc)
